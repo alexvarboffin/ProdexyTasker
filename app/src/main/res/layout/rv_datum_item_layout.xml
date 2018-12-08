@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="id" />
+
+    <TextView
+        android:id="@+id/tv_fullKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="fullKey" />
+
+    <TextView
+        android:id="@+id/tv_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="summary" />
+
+    <TextView
+        android:id="@+id/tv_floor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="floor" />
+
+    <TextView
+        android:id="@+id/tv_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="room" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="description" />
+
+    <TextView
+        android:id="@+id/tv_created"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="created" />
+
+    <TextView
+        android:id="@+id/tv_resolutionDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="resolutionDate" />
+
+    <TextView
+        android:id="@+id/tv_dueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="dueDate" />
+
+    <TextView
+        android:id="@+id/tv_startDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="startDate" />
+
+    <TextView
+        android:id="@+id/tv_channelId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="channelId" />
+
+    <TextView
+        android:id="@+id/tv_channelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="channelName" />
+
+    <TextView
+        android:id="@+id/tv_issueChannelIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="issueChannelIcon" />
+
+    <TextView
+        android:id="@+id/tv_priorityId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="priorityId" />
+
+    <TextView
+        android:id="@+id/tv_priorityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="priorityName" />
+
+    <TextView
+        android:id="@+id/tv_priorityColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="priorityColor" />
+
+    <TextView
+        android:id="@+id/tv_fullStatusName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="fullStatusName" />
+
+    <TextView
+        android:id="@+id/tv_issueStateId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="issueStateId" />
+
+    <TextView
+        android:id="@+id/tv_issueTypeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="issueTypeId" />
+
+    <TextView
+        android:id="@+id/tv_issueTypeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="issueTypeName" />
+
+    <TextView
+        android:id="@+id/tv_assignedUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="assignedUsers" />
+
+    <TextView
+        android:id="@+id/tv_inspectorId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="inspectorId" />
+
+    <TextView
+        android:id="@+id/tv_inspectorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="inspectorName" />
+
+    <TextView
+        android:id="@+id/tv_inspectorEMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="inspectorEMail" />
+
+    <TextView
+        android:id="@+id/tv_taskSetterId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="taskSetterId" />
+
+    <TextView
+        android:id="@+id/tv_taskSetterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="taskSetterName" />
+
+    <TextView
+        android:id="@+id/tv_taskSetterEMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="taskSetterEMail" />
+
+    <TextView
+        android:id="@+id/tv_reporterId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="reporterId" />
+
+    <TextView
+        android:id="@+id/tv_reporterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="reporterName" />
+
+    <TextView
+        android:id="@+id/tv_reporterEMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="reporterEMail" />
+
+    <TextView
+        android:id="@+id/tv_projectId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="projectId" />
+
+    <TextView
+        android:id="@+id/tv_projectFolderId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="projectFolderId" />
+
+    <TextView
+        android:id="@+id/tv_projectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="projectName" />
+
+    <TextView
+        android:id="@+id/tv_projectFolderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="projectFolderName" />
+
+    <TextView
+        android:id="@+id/tv_issueStateReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="issueStateReason" />
+
+    <TextView
+        android:id="@+id/tv_workspaceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="workspaceName" />
+
+    <TextView
+        android:id="@+id/tv_protocolId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="protocolId" />
+
+    <TextView
+        android:id="@+id/tv_protocolShortDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="protocolShortDescription" />
+
+    <TextView
+        android:id="@+id/tv_protocolSignDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="protocolSignDate" />
+
+    <TextView
+        android:id="@+id/tv_protocolName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="protocolName" />
+
+    <TextView
+        android:id="@+id/tv_protocolCreated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="protocolCreated" />
+
+    <TextView
+        android:id="@+id/tv_protocolIdentifier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="protocolIdentifier" />
+
+    <TextView
+        android:id="@+id/tv_accepted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="accepted" />
+
+    <TextView
+        android:id="@+id/tv_protocolIdAccepted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="protocolIdAccepted" />
+
+    <TextView
+        android:id="@+id/tv_protocolIdentifierAccepted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="protocolIdentifierAccepted" />
+
+    <TextView
+        android:id="@+id/tv_protocolSignDateAccepted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="protocolSignDateAccepted" />
+
+    <TextView
+        android:id="@+id/tv_areaName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="areaName" />
+
+    <TextView
+        android:id="@+id/tv_scheduledMinutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="scheduledMinutes" />
+
+    <TextView
+        android:id="@+id/tv_slaTimeScheduledMinutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="slaTimeScheduledMinutes" />
+
+    <TextView
+        android:id="@+id/tv_workLogMinutesTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="workLogMinutesTotal" />
+
+    <TextView
+        android:id="@+id/tv_modified"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="modified" />
+
+    <TextView
+        android:id="@+id/tv_mileStoneId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="mileStoneId" />
+
+    <TextView
+        android:id="@+id/tv_mileStoneText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="mileStoneText" />
+
+    <TextView
+        android:id="@+id/tv_stateReports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="stateReports" />
+
+    <TextView
+        android:id="@+id/tv_completed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="completed" />
+
+    <TextView
+        android:id="@+id/tv_inProcess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="inProcess" />
+
+    <TextView
+        android:id="@+id/tv_paused"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="paused" />
+
+    <TextView
+        android:id="@+id/tv_parentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="parentId" />
+
+    <TextView
+        android:id="@+id/tv_hasChilds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="hasChilds" />
+
+    <TextView
+        android:id="@+id/tv_childsCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="childsCount" />
+
+    <TextView
+        android:id="@+id/tv_firstLevelChildsCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="firstLevelChildsCount" />
+
+    <TextView
+        android:id="@+id/tv_notFitFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="notFitFilter" />
+
+    <TextView
+        android:id="@+id/tv_dueDateStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="dueDateStatus" />
+
+    <TextView
+        android:id="@+id/tv_slaStatusTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="slaStatusTitle" />
+
+    <TextView
+        android:id="@+id/tv_minStartDateChildIssue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="minStartDateChildIssue" />
+
+    <TextView
+        android:id="@+id/tv_minStartDateParentIssue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="minStartDateParentIssue" />
+
+    <TextView
+        android:id="@+id/tv_maxDueDateChildIssue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="maxDueDateChildIssue" />
+
+    <TextView
+        android:id="@+id/tv_maxDueDateParentIssue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="maxDueDateParentIssue" />
+
+    <TextView
+        android:id="@+id/tv_childScheduledMinutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="childScheduledMinutes" />
+
+    <TextView
+        android:id="@+id/tv_fieldValues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="fieldValues" />
+</LinearLayout>

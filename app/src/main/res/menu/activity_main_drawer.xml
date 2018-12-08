@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_issue_list"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/nav_issue_list" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_send_black_24dp"
+            android:title="@string/nav_notification" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/nav_settings" />
+    </group>
+
+    <item android:title="@null">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:title="Мои задачи" />
+            <item
+                android:id="@+id/nav_share"
+                android:title="Подтвержденные" />
+            <item
+                android:id="@+id/nav_send"
+                android:title="Неподтвержденные" />
+            <item
+                android:id="@+id/nav_exit"
+                android:title="@string/nav_exit" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/window_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_vertical_margin"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tv_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:drawableLeft="@drawable/ic_content_copy_black_24dp"
+                android:drawableStart="@drawable/ic_content_copy_black_24dp"
+                android:text="PROD: 910145" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="end"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingStart="8dp"
+                tools:ignore="RelativeOverlap">
+
+                <TextView
+                    android:id="@+id/tv_author_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Создана Свидригайло Е." />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12 января 17:39" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!--block-2-->
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+
+
+            android:paddingEnd="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:paddingStart="@dimen/activity_vertical_margin"
+
+            android:text="Просьба немедленно исправитью Понимаете, без моего телефона я не способен исполнять
+        свои прямые обязанности перед отечеством, поэтому ради всей нашей судебной системы..." />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+
+            android:padding="@dimen/activity_vertical_margin">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:entries="@array/select_type" />
+        </LinearLayout>
+
+        <Button
+            style="@style/BlueColoredButton.Confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_remove_red_eye_black_24dp"
+            android:drawableStart="@drawable/ic_remove_red_eye_black_24dp"
+            android:text="Подтвердить" />
+
+
+        <!--android:stretchColumns="0,1"-->
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            android:padding="@dimen/activity_vertical_margin"
+
+            >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight=".4"
+                    android:gravity="center_vertical"
+                    android:text="ГЕОМЕТКА" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:layout_weight=".6"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/addsubject"
+                        style="@style/BlueColoredButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/ic_location_off_black_24dp"
+                        android:drawableStart="@drawable/ic_location_off_black_24dp"
+
+                        android:gravity="center"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="Check in">
+
+                    </Button>
+
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/row2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/ColumnS4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ПЛОЩАДКА" />
+
+                <TextView
+                    style="@style/ColumnS6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Лефортовский районный суд" />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/row3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:gravity="center_vertical"
+                    android:text="ЭТАЖ" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:gravity="center_vertical"
+                    android:text="5"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:gravity="center_vertical"
+                    android:text="КАБИНЕТ" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:gravity="center_vertical"
+                    android:text="668"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/row4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/ColumnS4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ИНИЦИАТОР" />
+
+                <ImageView
+                    android:id="@+id/userPic"
+                    style="@style/ColumnS2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:padding="2dp"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    style="@style/ColumnS4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Жукович A." />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/row5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/ColumnS4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ТЕЛЕФОН" />
+
+                <TextView
+                    style="@style/ColumnS6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:autoLink="phone"
+                    android:text="+7 (965) 289 16 45" />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/row6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/ColumnS4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="СРОК" />
+
+                <TextView
+                    style="@style/ColumnS6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="12 Января 2019" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/ColumnS4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="НЕЗАПОЛНЕН" />
+
+                <TextView
+                    style="@style/ColumnS6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="-" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

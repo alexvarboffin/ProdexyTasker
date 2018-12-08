@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4596F1</color>
+    <color name="colorPrimaryDark">#29406F</color>
+    <color name="colorAccent">#147cb5</color>
+    <color name="colorWhite">@android:color/white</color>
+    <color name="colorBlack">@android:color/black</color>
+
+
+    <!--background-->
+    <color name="colorGradientStart">#66FFFFFF</color>
+    <color name="colorGradientEnd">#d9d9d9</color>
+    <color name="badge_background_color">@color/colorPrimary</color>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp">
+
+        <TextView
+            style="@style/DialogHeaderTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Выберите фильтры:"
+            />
+
+        <!--<ImageView-->
+            <!--android:id="@+id/dialogFragmentCloseImageViewId"-->
+            <!--android:layout_width="@dimen/dialog_close_button_size"-->
+            <!--android:layout_height="@dimen/dialog_close_button_size"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_margin="@dimen/large_spacing"-->
+            <!--android:src="@drawable/ic_close" />-->
+    </RelativeLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:paddingBottom="@dimen/large_spacing"-->
+        <!--android:paddingLeft="@dimen/large_spacing"-->
+        <!--android:paddingRight="@dimen/large_spacing">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/dialogFragmentThematicstextViewId"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="@dimen/medium_spacing"-->
+            <!--android:layout_marginTop="@dimen/medium_spacing"-->
+            <!--android:text="Тематика"-->
+            <!--android:textSize="@dimen/dialog_text_size" />-->
+
+        <Spinner
+            android:id="@+id/dialogFragmentRegionSpinnerId"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/colorAccent"
+            >
+
+        </Spinner>
+
+        <!--<TextView-->
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="@dimen/medium_spacing"-->
+            <!--android:layout_marginTop="@dimen/medium_spacing"-->
+            <!--android:text="Цена"-->
+            <!--android:textSize="@dimen/dialog_text_size" />-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar-->
+                <!--android:id="@+id/dialogFragmentRangeSeekbarId"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:bar_color="@color/colorGrey"-->
+                <!--app:bar_highlight_color="@color/colorYellow"-->
+                <!--app:left_thumb_image="@drawable/progress_circle"-->
+                <!--app:max_value="50000"-->
+                <!--app:min_value="0"-->
+                <!--app:right_thumb_image="@drawable/progress_circle"-->
+                <!--app:steps="100" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/dialogFragmentRangeSeekbarLeftTextViewId"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/dialogFragmentRangeSeekbarId"-->
+                <!--android:text="0 руб"-->
+                <!--android:textSize="@dimen/dialog_text_size" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/dialogFragmentRangeSeekbarRightTextViewId"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_below="@id/dialogFragmentRangeSeekbarId"-->
+                <!--android:text="50 000 руб"-->
+                <!--android:textSize="@dimen/dialog_text_size" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="@dimen/medium_spacing"-->
+            <!--android:layout_marginTop="@dimen/medium_spacing"-->
+            <!--android:text="Применить"-->
+            <!--android:textColor="@color/colorWhite"-->
+            <!--style="@style/Widget.AppCompat.Button.Colored"-->
+            <!--android:theme="@style/GreenButtonOverlay" />-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

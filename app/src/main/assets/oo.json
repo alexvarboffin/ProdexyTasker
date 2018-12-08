@@ -1,0 +1,723 @@
+{
+  "SignInRequest": {
+    "UserName": "admin",
+    "Password": "verysecurepassword",
+    "url": "url"
+  },
+  "SignInResponse": {
+    "Error": "",
+    "ReturnUrl": "/vadim.kaninskyi/sd/Pages/Index.aspx"
+  },
+  "LogoutRequest": {
+  },
+  "SettingRequest": {
+    "NotifierShowDuration": 10,
+    "MaxCommentsNestingLevel": 4,
+    "DownloadHandlerUrl": "/vadim.kaninskyi/sd/Pages/DownloadHandler.ashx",
+    "PhoneMask": "+7(###)###-##-##",
+    "ImagesPath": "/vadim.kaninskyi/sd/Front/images/",
+    "UserInfo": {
+      "IsAdmin": true,
+      "FullName": "Искандарова Ирина",
+      "Login": "irina.iskandarova@(АДРЕС САЙТА).com",
+      "Roles": [
+        {
+          "Name": "Специалист",
+          "Id": 2,
+          "AccessParameters": [
+            "Create",
+            "Editor"
+          ]
+        },
+        {
+          "Name": "Администратор",
+          "Id": 18,
+          "AccessParameters": [
+            "Create",
+            "Admin",
+            "Editor"
+          ]
+        },
+        {
+          "Name": "Протоколы с удалением",
+          "Id": 22,
+          "AccessParameters": [
+            "Editor"
+          ]
+        }
+      ],
+      "UserId": 1309
+    },
+    "SiteMainEmailAddress": "help@(АДРЕС САЙТА).com55645",
+    "Header": "КРОК ТЕХНИЧЕСКАЯ ПОДДЕРЖКА123",
+    "Version": "0.0",
+    "MaxFilesCount": 20,
+    "MaxFileSize": 50,
+    "WorkLogEditablePeriodMinutes": 15,
+    "AllowedExtensions": [
+      "jpg",
+      "jpeg",
+      "png",
+      "gif",
+      "doc",
+      "docx",
+      "rtf",
+      "pdf",
+      "txt",
+      "log",
+      "xls",
+      "xlsx",
+      "zip",
+      "7z",
+      "rar",
+      "cfg",
+      "config",
+      "vsd",
+      "vdx",
+      "vtx",
+      "vsdx",
+      "vsdm",
+      "xml"
+    ],
+    "ControlPointStatusIsRequired": false,
+    "FileVersioningAllowed": true,
+    "DefaultThemeName": "default",
+    "AllowToChangeThemes": false,
+    "SerializedClientPortalSettings": "{\"LogoPath\": \"/Front/images/new/login/gerb_cdep.png\", \"LogoText\": \"Портал регистрации заявок Управления Судебного департамента в городе Москве\", \"SoftwareDeveloperLogoPath\":\"/Front/images/portal/logo_foot.png\", \"CopyrightCaption\": \"© 2017 (АДРЕС САЙТА). Все права защищены.\", \"MainPageCaption\": \"Prodexy - главная\", \"SoftwareDeveloperCaption\": \"(АДРЕС САЙТА)\", \"SoftwareDeveloperLink\": \"http://www.(АДРЕС САЙТА).com/ru/Main.aspx\"}",
+    "LogoPath": "/Front/images/new/login/gerb_cdep.png",
+    "MassOperationsAllowed": true,
+    "PageSizeSettings": "[10, 20, 30]",
+    "PageStartSizeSettings": 500,
+    "CreateProtocolAllowed": true,
+    "DeleteProtocolAllowed": true,
+    "DetachProtocolIssuesAllowed": false,
+    "ManageFiltersAllowed": true
+  },
+  "IssuelistRequest": {
+    "AddChilds": false,
+    "Criterias": [
+      {
+        "BrokenSla": false
+      },
+      {
+        "DatePostponement": false
+      },
+      {
+        "Completed": true
+      },
+      {
+        "Assignee": [
+          1309,
+          1310
+        ]
+      }
+    ],
+    "DataSourceRequest": {
+      "Skip": 0,
+      "Take": 80
+    },
+    "IssueFieldValueCriterias": {
+      "ByDictionary": [],
+      "ByField": [
+        {
+          "SearchingValue": "123",
+          "FieldId": 182,
+          "DataType": 0
+        },
+        {
+          "SearchingItems": [
+            "1",
+            "2"
+          ],
+          "DataType": 9,
+          "FieldId": 203
+        },
+        {
+          "SearchingValue": false,
+          "DataType": 9,
+          "FieldId": 203
+        },
+        {
+          "SearchingValue": true,
+          "DataType": 9,
+          "FieldId": 203
+        }
+      ]
+    }
+  },
+  "IssuelistResponse": {
+    "Datum": [
+      {
+        "Id": 453269,
+        "FullKey": "453269",
+        "Summary": null,
+        "Floor": null,
+        "Room": null,
+        "Description": null,
+        "Created": "2018-05-16T09:07:57.28",
+        "ResolutionDate": null,
+        "DueDate": null,
+        "StartDate": null,
+        "ChannelId": null,
+        "ChannelName": null,
+        "IssueChannelIcon": null,
+        "PriorityId": null,
+        "PriorityName": null,
+        "PriorityColor": null,
+        "FullStatusName": null,
+        "IssueStateId": null,
+        "IssueTypeId": null,
+        "IssueTypeName": null,
+        "AssignedUsers": null,
+        "InspectorId": null,
+        "InspectorName": "",
+        "InspectorEMail": null,
+        "TaskSetterId": 9288,
+        "TaskSetterName": "admin admin",
+        "TaskSetterEMail": "admin@mail.ru",
+        "ReporterId": 9288,
+        "ReporterName": "admin admin",
+        "ReporterEMail": "admin@mail.ru",
+        "ProjectId": null,
+        "ProjectFolderId": null,
+        "ProjectName": null,
+        "ProjectFolderName": null,
+        "IssueStateReason": null,
+        "WorkspaceName": null,
+        "ProtocolId": 0,
+        "ProtocolShortDescription": null,
+        "ProtocolSignDate": null,
+        "ProtocolName": null,
+        "ProtocolCreated": null,
+        "ProtocolIdentifier": null,
+        "Accepted": false,
+        "ProtocolIdAccepted": null,
+        "ProtocolIdentifierAccepted": null,
+        "ProtocolSignDateAccepted": null,
+        "AreaName": null,
+        "ScheduledMinutes": null,
+        "SlaTimeScheduledMinutes": null,
+        "WorkLogMinutesTotal": 0,
+        "Modified": "2018-05-16T09:07:57.28",
+        "MileStoneId": null,
+        "MileStoneText": null,
+        "StateReports": null,
+        "Completed": false,
+        "InProcess": false,
+        "Paused": false,
+        "ParentId": null,
+        "HasChilds": false,
+        "ChildsCount": 0,
+        "FirstLevelChildsCount": 0,
+        "NotFitFilter": false,
+        "DueDateStatus": 0,
+        "SlaStatusTitle": null,
+        "MinStartDateChildIssue": null,
+        "MinStartDateParentIssue": null,
+        "MaxDueDateChildIssue": null,
+        "MaxDueDateParentIssue": null,
+        "ChildScheduledMinutes": 0,
+        "FieldValues": null
+      }
+    ],
+    "Total": 2697,
+    "Aggregates": null
+  },
+  "ErrorResponse": {
+    "Message": "Не переданы данные для получения задач",
+    "Result": -2146233088
+  },
+  "IssuesRequest": {
+    "key": 99999
+  },
+  "IssuesResponse": {
+    "Id": 453236,
+    "Fields": [
+      {
+        "Name": "Summary",
+        "Schema": {
+          "DisplayName": "Заголовок",
+          "IsVisible": true,
+          "IsEnabled": true
+        },
+        "Data": {
+          "Key": null,
+          "Value": "заголовок&amp;nbsp;https://rcdev.(АДРЕС САЙТА).net:6555/sdtest/Pages/Index.aspx&amp;nbsp;",
+          "ExtValue": null,
+          "Values": null
+        }
+      },
+      {
+        "Name": "AssignedUsers",
+        "Schema": {
+          "DisplayName": "Исполнитель",
+          "IsVisible": true,
+          "IsEnabled": true
+        },
+        "Data": {
+          "Key": null,
+          "Value": null,
+          "ExtValue": null,
+          "Values": [
+            {
+              "Key": "9288",
+              "Value": "admin admin",
+              "ExtValue": {
+                "EMail": "admin@mail.ru",
+                "UserName": "admin",
+                "ActiveDirectorySid": "",
+                "ActiveDirectoryAccountName": "",
+                "WindowsDomainFullyQualifiedDomainName": null,
+                "Phone": "+7 (000) 000-00-00",
+                "MobilePhone": "",
+                "DepartmentNames": [],
+                "RoleName": null,
+                "AreaName": null,
+                "PositionName": "Заместитель Мэра Лукошкино в Правительстве Лукошкино",
+                "GroupNames": [
+                  "Материальное обеспечение",
+                  "Центральный Дивизион",
+                  "Общая группа хоз. службы",
+                  "Диспетчерская",
+                  "Дивизион Родионова",
+                  "Пользователи портала",
+                  "Дивизион Управляющие",
+                  "Клининг",
+                  "Дивизион Сологубова",
+                  "Служба качества",
+                  "Противопожарные системы",
+                  "Заказчик",
+                  "На закрытие"
+                ]
+              },
+              "Values": null
+            },
+            {
+              "Key": "9209",
+              "Value": "Гвоздев Александр Викторович",
+              "ExtValue": {
+                "EMail": "agvozdev@555.pp.ru",
+                "UserName": "agvozdev@555.pp.ru",
+                "ActiveDirectorySid": "S-1-5-21-4153142668-3714677373-600596301-4384",
+                "ActiveDirectoryAccountName": "GvozdevAV",
+                "WindowsDomainFullyQualifiedDomainName": "mgs0",
+                "Phone": "+7 917 554-47-16",
+                "MobilePhone": "+7(444)444-44-44",
+                "DepartmentNames": [],
+                "RoleName": null,
+                "AreaName": null,
+                "PositionName": null,
+                "GroupNames": [
+                  "Общая группа хоз. службы",
+                  "Диспетчерская"
+                ]
+              },
+              "Values": null
+            }
+          ]
+        }
+      }
+    ],
+    "Author": {
+      "Id": 1309,
+      "Name": "Искандарова Ирина",
+      "EMail": "irina.iskandarova@(АДРЕС САЙТА).com"
+    },
+    "Access": {
+      "Id": 453236,
+      "CanDelete": true,
+      "CanView": true,
+      "FieldAccess": [
+        {
+          "Name": "Summary",
+          "CanEdit": true,
+          "OtherAccess": []
+        },
+        {
+          "Name": "ChildIssue",
+          "CanEdit": true,
+          "OtherAccess": [
+            "AddChildIssue",
+            "RemoveChildIssue"
+          ]
+        }
+      ]
+    }
+  },
+  "IssueCardFilesRequest": {
+    "key": 99999
+  },
+  "IssueCardFilesResponse": [
+    {
+      "Id": 7946,
+      "Name": "напишите нам.jpg",
+      "IsSystemFile": false,
+      "SystemFileInfo": null,
+      "Version": null,
+      "VersioningAllowed": false,
+      "ProviderId": 0,
+      "AuthorUserName": "Искандарова Ирина",
+      "AuthorUserId": 1309,
+      "CreationDate": "2018-05-13T01:53:14.573",
+      "Size": 115631,
+      "IsViewable": true,
+      "ImageHeight": 769,
+      "ImageWidth": 901
+    }
+  ],
+  "UploadRequest": {
+    "issueKey":88,
+    "hubClientId":"kkk"
+  },
+  "UploadResponse": [
+    {
+      "Id": 7948,
+      "Name": "1521406483-7b85267b6756d4b9fd33c757ed9e4cc8.png",
+      "IsSystemFile": false,
+      "SystemFileInfo": null,
+      "Version": null,
+      "VersioningAllowed": false,
+      "ProviderId": 0,
+      "AuthorUserName": "Искандарова Ирина",
+      "AuthorUserId": 1309,
+      "CreationDate": "2018-05-17T13:51:53.3203554+03:00",
+      "Size": 506926,
+      "IsViewable": true,
+      "ImageHeight": 637,
+      "ImageWidth": 638
+    }
+  ],
+  "DeleteRequest": {
+    "id": 99,
+    "hubClientId": "0"
+  },
+  "DeleteResponse": {
+    "Id": 7949,
+    "HistoryItems": [
+      {
+        "Id": 1631018,
+        "ObjectId": 7949,
+        "Action": {
+          "Code": 25,
+          "Field": "Files",
+          "OldValue": {
+            "Name": "1521406483-7b85267b6756d4b9fd33c757ed9e4cc8.png",
+            "Source": "Pages/DownloadHandler.ashx?fileId=7949",
+            "FileId": "7949",
+            "Version": null
+          },
+          "NewValue": null
+        },
+        "Created": "2018-05-17T14:19:37.953",
+        "Issue": {
+          "Id": 453236,
+          "FullKey": "cond-453236",
+          "Summary": "заголовок&nbsp;https://rcdev.(АДРЕС САЙТА).net:6555/sdtest/Pages/Index.aspx&nbsp;"
+        },
+        "Author": {
+          "Id": 1309,
+          "EMail": "irina.iskandarova@(АДРЕС САЙТА).com",
+          "FirstName": "Ирина",
+          "LastName": "Искандарова",
+          "MiddleName": null
+        },
+        "ViewedByCurrentUser": true
+      }
+    ],
+    "HistoryCount": 1,
+    "Author": {
+      "Id": 1309,
+      "Name": "Искандарова Ирина",
+      "EMail": "irina.iskandarova@(АДРЕС САЙТА).com"
+    }
+  },
+  "CommentsBlockRequest": {
+    "key": 99
+  },
+  "CommentsBlockResponse": [
+    {
+      "Id": 143217,
+      "CommentText": "отчёт не отчёт гаестрвнлков",
+      "AdditionalText": null,
+      "DateJobCreated": null,
+      "IssueId": 453236,
+      "ParentId": null,
+      "WorkLogId": null,
+      "Created": "2018-05-13T01:50:08.157",
+      "Author": {
+        "UserId": 1309,
+        "FirstName": "Ирина",
+        "LastName": "Искандарова",
+        "FullName": "Искандарова Ирина",
+        "UserContacts": {
+          "EMail": "irina.iskandarova@(АДРЕС САЙТА).com",
+          "UserName": "irina.iskandarova@(АДРЕС САЙТА).com",
+          "ActiveDirectorySid": null,
+          "ActiveDirectoryAccountName": null,
+          "WindowsDomainFullyQualifiedDomainName": null,
+          "Phone": null,
+          "MobilePhone": null,
+          "DepartmentNames": [
+            "(АДРЕС САЙТА)"
+          ],
+          "RoleName": null,
+          "AreaName": null,
+          "PositionName": "Заместитель. председателя комитета государственного строительного надзора города Лукошкино",
+          "GroupNames": [
+            "Материальное обеспечение",
+            "Центральный Дивизион",
+            "Общая группа хоз. службы",
+            "Диспетчерская",
+            "Дивизион Родионова",
+            "Пользователи портала",
+            "Дивизион Управляющие",
+            "Клининг",
+            "Дивизион Сологубова",
+            "Служба качества",
+            "Противопожарные системы",
+            "Заказчик",
+            "На закрытие"
+          ]
+        },
+        "EMail": "irina.iskandarova@(АДРЕС САЙТА).com"
+      },
+      "ToUser": null,
+      "CcUsers": null,
+      "Kind": 3,
+      "DisplayDate": "13.05.2018 1:50",
+      "Comments": [],
+      "Files": null,
+      "IsFinal": false,
+      "CompletionPercentage": 0,
+      "ControlPoint": null,
+      "ProtocolId": null,
+      "ProtocolIdentifier": null,
+      "ProtocolSignDate": null,
+      "ControlPointStatus": null
+    }
+  ],
+  "AddCommentRequest": {
+    "CommentText": "Ух ты! Даже так работает!!!",
+    "IsFinal": false,
+    "Kind": 0,
+    "IssueKey": 999999,
+    "HubClientId": 0,
+    "ParentId": 123456
+  },
+  "AddCommentResponse": {
+    "Fields": [
+      {
+        "Name": "Modified",
+        "Schema": {
+          "DisplayName": "Изменено",
+          "IsVisible": true,
+          "IsEnabled": true
+        },
+        "Data": {
+          "Key": null,
+          "Value": "2018-05-17T17:26:57.7424379+03:00",
+          "ExtValue": null,
+          "Values": null
+        }
+      }
+    ],
+    "NewComments": [
+      {
+        "Id": 143221,
+        "CommentText": "Важное замечание да и вообще!",
+        "AdditionalText": null,
+        "DateJobCreated": null,
+        "IssueId": 453236,
+        "ParentId": null,
+        "WorkLogId": null,
+        "Created": "2018-05-17T17:26:57.7424379+03:00",
+        "Author": {
+          "UserId": 1309,
+          "FirstName": "Ирина",
+          "LastName": "Искандарова",
+          "FullName": "Искандарова Ирина",
+          "UserContacts": {
+            "EMail": "irina.iskandarova@(АДРЕС САЙТА).com",
+            "UserName": "irina.iskandarova@(АДРЕС САЙТА).com",
+            "ActiveDirectorySid": null,
+            "ActiveDirectoryAccountName": null,
+            "WindowsDomainFullyQualifiedDomainName": null,
+            "Phone": null,
+            "MobilePhone": null,
+            "DepartmentNames": [
+              "(АДРЕС САЙТА)"
+            ],
+            "RoleName": null,
+            "AreaName": null,
+            "PositionName": "Заместитель. председателя комитета государственного строительного надзора города Лукошкино",
+            "GroupNames": [
+              "Материальное обеспечение",
+              "Центральный Дивизион",
+              "Общая группа хоз. службы",
+              "Диспетчерская",
+              "Дивизион Родионова",
+              "Пользователи портала",
+              "Дивизион Управляющие",
+              "Клининг",
+              "Дивизион Сологубова",
+              "Служба качества",
+              "Противопожарные системы",
+              "Заказчик",
+              "На закрытие"
+            ]
+          },
+          "EMail": "irina.iskandarova@(АДРЕС САЙТА).com"
+        },
+        "ToUser": null,
+        "CcUsers": null,
+        "Kind": 0,
+        "DisplayDate": "4 сек. назад",
+        "Comments": [],
+        "Files": null,
+        "IsFinal": false,
+        "CompletionPercentage": null,
+        "ControlPoint": null,
+        "ProtocolId": null,
+        "ProtocolIdentifier": null,
+        "ControlPointStatus": null
+      }
+    ],
+    "DeletedCommentsIds": null,
+    "HistoryItems": [
+      {
+        "Id": 1631039,
+        "ObjectId": 143221,
+        "Action": {
+          "Code": 8,
+          "Field": "CommentText",
+          "OldValue": null,
+          "NewValue": {
+            "Comment": {
+              "Text": "Важное замечание да и вообще!",
+              "Created": "2018-05-17T17:26:59.4974544+03:00",
+              "Author": {
+                "FullName": "Искандарова Ирина",
+                "LastName": "Искандарова",
+                "FirstName": "Ирина",
+                "MiddleName": null,
+                "Id": 1309
+              },
+              "IsFinal": false
+            }
+          }
+        },
+        "Created": "2018-05-17T17:26:59.497",
+        "Issue": {
+          "Id": 453236,
+          "FullKey": "cond-453236",
+          "Summary": "заголовок&nbsp;https://rcdev.(АДРЕС САЙТА).net:6555/sdtest/Pages/Index.aspx&nbsp;"
+        },
+        "Author": {
+          "Id": 1309,
+          "EMail": "irina.iskandarova@(АДРЕС САЙТА).com",
+          "FirstName": "Ирина",
+          "LastName": "Искандарова",
+          "MiddleName": null
+        },
+        "ViewedByCurrentUser": true
+      }
+    ],
+    "Author": null
+  },
+  "GetExtendedUserInfoRequest": {
+    "UserId": 99
+  },
+  "GetExtendedUserInfoResponse": {
+    "Id": 1309,
+    "FullName": "Искандарова Ирина",
+    "WorkPhone": null,
+    "MobilePhone": null,
+    "ActiveDirectoryAccountName": null,
+    "AssignedTasksCount": 162,
+    "EMail": "irina.iskandarova@(АДРЕС САЙТА).com",
+    "Roles": [
+      "Специалист",
+      "Администратор",
+      "Протоколы с удалением"
+    ],
+    "Groups": [
+      {
+        "Id": 1,
+        "GroupName": "Материальное обеспечение"
+      },
+      {
+        "Id": 2,
+        "GroupName": "Центральный Дивизион"
+      },
+      {
+        "Id": 3,
+        "GroupName": "Общая группа хоз. службы"
+      },
+      {
+        "Id": 4,
+        "GroupName": "Диспетчерская"
+      },
+      {
+        "Id": 5,
+        "GroupName": "Дивизион Родионова"
+      },
+      {
+        "Id": 6,
+        "GroupName": "Пользователи портала"
+      },
+      {
+        "Id": 7,
+        "GroupName": "Дивизион Управляющие"
+      },
+      {
+        "Id": 8,
+        "GroupName": "Клининг"
+      },
+      {
+        "Id": 9,
+        "GroupName": "Дивизион Сологубова"
+      },
+      {
+        "Id": 10,
+        "GroupName": "Служба качества"
+      },
+      {
+        "Id": 11,
+        "GroupName": "Противопожарные системы"
+      },
+      {
+        "Id": 12,
+        "GroupName": "Заказчик"
+      },
+      {
+        "Id": 13,
+        "GroupName": "На закрытие"
+      }
+    ],
+    "WindowsDomainName": null,
+    "Info": null,
+    "Deleted": false,
+    "AreaId": null,
+    "Area": null,
+    "LastActivity": "2018-05-17T14:32:16.243"
+  },
+  "GetUserStickerFiltersShortInfoRequest": {
+    "take": 10,
+    "skip": 0
+  },
+  "GetUserStickerFiltersShortInfoResponse": {
+    "Data": [
+      {
+        "FilterJSON": "{\"Criterias\":[{\"Name\":\"Created\",\"MinValue\":\"2015-11-30T00:00:00\",\"MaxValue\":\"2015-12-01T00:00:00\"},{\"Name\":\"Scheduled\",\"MinValue\":null,\"MaxValue\":null},{\"Name\":\"WorkLog\",\"MinValue\":null,\"MaxValue\":null},{\"Name\":\"Completed\",\"Value\":true},{\"Name\":\"BrokenSla\",\"Value\":false},{\"Name\":\"DatePostponement\",\"Value\":false}],\"IssueFieldValueCriterias\":{\"ByDictionary\":[],\"ByField\":[]}}",
+        "Id": 182,
+        "Title": "создано 30.11.15",
+        "Order": 0,
+        "SubscriptionId": null,
+        "SubscriptionType": "Unknown",
+        "AllowEditSubscriptionType": false
+      }
+    ],
+    "Total": 5,
+    "Aggregates": null
+  }
+}

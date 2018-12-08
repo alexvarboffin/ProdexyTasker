@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.WelcomeActivity">
+
+
+    <LinearLayout
+        android:gravity="top"
+        android:layout_above="@id/l_bottom"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_logo" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Добро пожаловать"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="@dimen/welcome_iv_profile_size"
+                android:layout_height="@dimen/welcome_iv_profile_size"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_no_avatar" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                tools:text="Иванов Иван Иванович"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="240dp"
+            android:layout_height="10dp"
+
+            android:max="100"
+            android:progress="10"
+            android:progressDrawable="@drawable/progress_bar"
+            android:secondaryProgress="20" />
+
+        <TextView
+            android:id="@+id/progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="44dp"
+            android:paddingTop="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            tools:text="ЗАГРУЗКА ДАННЫХ ПОЛЬЗОВАТЕЛЯ" />
+    </LinearLayout>
+</RelativeLayout>

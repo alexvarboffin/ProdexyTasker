@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ProdexyTasker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Настройки профиля</string>
+
+
+    <string name="prompt_email">Логин</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="prompt_server">Сервер</string>
+
+    <string name="action_sign_in">Авторизоваться</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="error_invalid_email">Этот эмейл неправильный</string>
+    <string name="error_invalid_password">Пароль слишком короткий</string>
+    <string name="error_incorrect_password">Этот пароль неправильный</string>
+    <string name="error_field_required">Это обязательное поле</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="prompt_repeat_password">Повторите пароль</string>
+
+    <string name="title_activity_registration">Регистрация</string>
+    <string name="title_activity_settings_fragment">SettingsFragment</string>
+    <string name="nav_issue_list">Задачи</string>
+    <string name="nav_notification">Уведомления</string>
+    <string name="btn_new_comment_text">Новый комментарий</string>
+    <string name="empty_comment_list">К этой задаче пока нет комментариев</string>
+    <string name="label_email">EMAIL</string>
+    <string name="label_phone">PHONE</string>
+
+    <string name="input_placeholder">Введите текст комментария</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_exit">Выход</string>
+</resources>
